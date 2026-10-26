@@ -1,0 +1,80 @@
+# Telco Customer Churn — Exploratory Data Analysis
+
+## 📌 Project Overview
+
+This project explores customer churn in the telecommunications industry using Python. The goal is to understand customer behaviour and identify patterns associated with customers leaving the service.
+
+## 🎯 Objectives
+
+* Analyse customer churn distribution.
+* Explore customer tenure and contract types.
+* Understand the relationship between payment methods, billing, and churn.
+* Identify patterns through data visualisation.
+
+## 📂 Dataset
+
+The dataset used in this project was obtained from Kaggle.
+
+* **Dataset:** Telco Customer Churn
+* **Source:** [Kaggle — Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+* **File:** `WA_Fn-UseC_-Telco-Customer-Churn.csv`
+
+The dataset contains customer information, subscribed services, contract details, billing information, and churn status.
+
+## 🛠️ Tools and Technologies
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+## 🔍 Analysis Performed
+
+* Data inspection and cleaning
+* Duplicate record handling
+* Churn distribution analysis
+* Key Performance Indicator (KPI) calculations
+* Customer tenure and contract analysis
+* Payment method and billing analysis
+* Data visualisation and correlation analysis
+
+## 📊 Key Insights
+
+The analysis explores patterns between customer churn and factors such as tenure, contract type, payment method, and billing.
+
+Refer to the notebook for the detailed findings and visualisations.
+
+## 🚀 How to Run
+
+1. Clone or download this repository.
+
+2. Download the dataset from the [Kaggle dataset page](https://www.kaggle.com/datasets/blastchar/telco-customer-churn).
+
+3. Install the required libraries:
+
+   ```bash
+   pip install pandas numpy matplotlib seaborn jupyter
+   ```
+
+4. Open the notebook in Jupyter Notebook.
+
+5. Update the dataset path if necessary.
+
+6. Run the notebook cells sequentially.
+
+## 📁 Project Structure
+
+```text
+telco-customer-churn-eda/
+├── Telco_Customer_Churn_EDA.ipynb
+└── README.md
+```
+
+## 📚 Learning Outcomes
+
+* Practised data cleaning and preprocessing.
+* Applied exploratory data analysis techniques.
+* Created visualisations using Python libraries.
+* Explored customer churn patterns using data.
